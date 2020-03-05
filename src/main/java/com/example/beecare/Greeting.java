@@ -4,18 +4,18 @@ package com.example.beecare;
 public class Greeting {
 
 	private final long id;
-	private final String content;
+	private final String quote;
 
-	public Greeting(long id, String content) {
+	public Greeting(long id, String quote) {
 		this.id = id;
-		this.content = content;
+		this.quote = quote;
 	}
 
 	public long getId() {
 		return id;
 	}
 
-	public String getContent() {
-		return content;
+	public String getQuote() {
+		return quote;
 	}
 }
