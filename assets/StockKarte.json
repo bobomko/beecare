@@ -1,0 +1,74 @@
+{
+  "add-substract": [
+    "+",
+    "-"
+  ],
+  "bewertung": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "bewertungStern": [
+    "*",
+    "**",
+    "***"
+  ],
+  "Record": {
+    "Datum": "date",
+    "Allgemeinbefund": {
+      "Belegtewaben": "number",
+      "Brut": [
+        "W",
+        "Ei",
+        "offen",
+        "verdeckelt"
+      ],
+      "Futter in kg": "number",
+      "Wabensitz": "number",
+      "Sanftmut": "number"
+    },
+    "Tätigkeit": {
+      "W": [
+        "add/substract",
+        "number"
+      ],
+      "MW": [
+        "add/substract",
+        "number"
+      ],
+      "Brut": [
+        "add/substract",
+        "number"
+      ],
+      "Bee kg": [
+        "add/substract",
+        "number"
+      ],
+      "Honig kg": [
+        "add/substract",
+        "number"
+      ],
+      "Zucker kg": [
+        "add/substract",
+        "number"
+      ]
+    },
+    "notes": "string"
+  },
+  "Stockkarte": {
+    "location": {
+      "name": "string",
+      "GPS": "string"
+    },
+    "ID": "string",
+    "ImkerName": "String",
+    "BertriebsJahr": "date",
+    "lastYearHonnyProd": "number",
+    "thisYearHonnyProd": "number",
+    "Records": {
+      "rec": "Records"
+    }
+  }
+}
